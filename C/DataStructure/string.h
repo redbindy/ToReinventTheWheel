@@ -1,7 +1,7 @@
 #ifndef STRING_H
 #define STRING_H
 
-size_t get_string_length(const char* str);
+unsigned int get_string_length(const char* str);
 int compare_string(const char* lhs, const char* rhs);
 int compare_n_string(const char* lhs, const char* rhs, const int count);
 char* copy_string(char* dest, const char* src);

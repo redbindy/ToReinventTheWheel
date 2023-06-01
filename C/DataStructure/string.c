@@ -2,7 +2,7 @@
 
 #include "string.h"
 
-size_t get_string_length(const char* str)
+unsigned int get_string_length(const char* str)
 {
     const char* p_str = str;
 
