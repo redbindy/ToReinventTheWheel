@@ -102,5 +102,5 @@ string_t interleave_malloc(string_t* str1, string_t* str2)
 
 void append(string_t* str, const string_t* str2)
 {
-    char* p_str;
+    char* p_str = str->pa_str;
 }
